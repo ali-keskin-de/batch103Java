@@ -56,6 +56,23 @@ public class NestedForLoop01 {
 
         }
 
+        // Example 3: Asagidaki sekli cizen code yaziniz
+        //       * * * *
+        //       * * *
+        //       * *
+        //       *
+        int row =4;
+
+        for (int i =1 ; i <row +1 ; i++) {
+
+            for (int j = row; j+1 >i ; j--) {
+                System.out.print("* ");
+
+            }
+            System.out.println();
+
+        }
+
 
 
 
