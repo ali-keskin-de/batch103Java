@@ -13,6 +13,10 @@ public class Student {
 
     // Data’yi private yaptıktan sonra diğer Class’lardan nasıl değiştirebiliriz?
     // Encapsul’e yaptıktan sonra set methodlar (setter) oluşturarak dataları değiştirilebilir  yapabilirsiniz.
+    // i) set methodlari hep "public" olur
+    //ii) set method'un "return type" hep void olur.
+    //iii) set method parametre kullanır. parametrenin data type variable ile ayni olur.
+
     // Variable’in data type ile getter’in return type ayni olmalıdır.
     // get methodlari isimlendirirken “get + <variable name>” ancak variable’in data type’i “boolean” ise “is + <variable name>” yapılır.
 
