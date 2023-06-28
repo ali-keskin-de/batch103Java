@@ -30,20 +30,20 @@ public class LinkedList01 {
 
         s.add(2,"Esen"); // add(); Method'u verilen index'e node ekler.
 
-        s.addFirst("Kemal");
-        s.addLast("Ajdar");
+        s.addFirst("Kemal"); // Node ilk siraya ekler.
+        s.addLast("Ajdar"); // Node son siraya ekler.
         System.out.println(s);//[Kemal, Steve, Ajda, Esen, Muge, Cunyet, Esra, Ajdar]
 
        // s.remove(2);
         System.out.println(s);//[Kemal, Steve, Esen, Muge, Cunyet, Esra, Ajdar] ==> Ajda silindi
 
-        // s.remove("Ajdar");
+         //s.remove("Ajdar");
         System.out.println(s);// [Kemal, Steve, Esen, Muge, Cunyet, Esra] ==> Ajdar sillindi
 
-       // s.remove();
+        //s.remove();
         System.out.println(s);// [Steve, Esen, Muge, Cunyet, Esra] ==> ilk eleman sillindi
 
-       // s.removeFirstOccurrence("Esra"); //  Buldugu ilk Esrayi siler
+      // s.removeFirstOccurrence("Esra"); //  Buldugu ilk Esrayi siler
         System.out.println(s);
 
        // s.removeLastOccurrence("Esra");
