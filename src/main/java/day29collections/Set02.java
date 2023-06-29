@@ -9,8 +9,8 @@ public class Set02 {
     public static void main(String[] args) {
         // Ögrenci mail adres'lerini natural order'a göre siralanmis olarak depolayiniz.
 
+        long t1 = System.nanoTime(); // Benim sistemimdeki zamani nano saniye olarak alir.
         TreeSet<String> stdMail = new TreeSet<>();
-
         stdMail.add("abc@gmail.com");
         stdMail.add("abd@gmail.com");
         stdMail.add("abe@gmail.com");
@@ -21,9 +21,9 @@ public class Set02 {
         stdMail.add("abi@gmail.com");
         stdMail.add("abj@gmail.com");
         stdMail.add("abk@gmail.com");
-
         System.out.println(stdMail);
 
+        long t2 = System.nanoTime();
         // Weg 2: HashSet TreeSet'lerden hizli calistigindan bu methodu kullaniriz. Bu daha hizli calisir.
 
         HashSet<String> stdMailHs= new HashSet<>();
@@ -37,9 +37,12 @@ public class Set02 {
         stdMailHs.add("abi@gmail.com");
         stdMailHs.add("abj@gmail.com");
         stdMailHs.add("abk@gmail.com");
-
         TreeSet<String> stdMailHsTs= new TreeSet<>(stdMailHs);
         System.out.println(stdMailHsTs);
 
+        long t3 = System.nanoTime();
+
+        System.out.println(t2-t1);// TreeSet'in calisma zamani
+        System.out.println(t3-t2);// HashSet'in calisma zamani
     }
 }
