@@ -15,8 +15,6 @@ public class HashMap01 {
       6) Map'ler Collection degildir farkli bir yapidir.
 
 
-
-
      */
 
 
