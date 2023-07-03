@@ -1,6 +1,19 @@
 package day34exceptions;
 
 public class E03 {
+    /*
+   1) try-bloc’tan sonra çoklu catch-block kullanilabilir.
+      i)catch-block’lar arasında parent-child iliskisi yoksa istenilen sirada catch-block’lar yazılabilir.
+      ii)catch-block’lar arasında parent-child iliskisi varsa
+      child catch-block’lar parent exception catch-block’lardan önce yazilmalidir.                                                       		 catch-block’lar parent exception catch-block’lardan önce yazilmalidir.
+
+   2) Exception class tüm Exception’larin parent’dir çoklu catch-block kullanmak yerine tekli catch-block kullanilabilir.
+   3) try-block tek başına kullanilamaz.
+      Peki try-block, catch-block olmadan kullanilabilir mi?
+      try-block + finally kullanilabilir.
+
+     */
+
 
     public static void main(String[] args) {
 
