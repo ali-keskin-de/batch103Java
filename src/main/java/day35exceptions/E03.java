@@ -17,7 +17,7 @@ public class E03 {
 
     public static void main(String[] args) {
         try {
-            printAge(23);
+            printAge(-1);
         }catch (IllegalArgumentException e) {
             System.out.println("Negative ages are not valid");
         }

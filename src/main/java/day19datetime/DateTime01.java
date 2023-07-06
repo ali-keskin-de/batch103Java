@@ -79,6 +79,7 @@ public class DateTime01 {
         LocalDate myDate = LocalDate.of(1989, 3, 28);
 
         int day = myDate.getDayOfMonth(); // yukardaki tarihte ayin gününü verir.
+        System.out.println(day);
         int month = myDate.getMonthValue();// yukardaki date ayini verir.
                    myDate.getMonth(); // bana yukardaki date'i ayinin ismini verir
 
