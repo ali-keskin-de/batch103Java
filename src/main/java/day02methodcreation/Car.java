@@ -15,12 +15,12 @@ public class Car {
 
         /*
         1) Objeyi olusturu iken kullanacagimz sinifin ismini yazariz.
-          - Object olusturmak icin kalip lazimdir Class'lar birer kaliptir demistik objectlerin.
+          - Object olusturmak icin kalip lazimdir.  Class'lar objectlerin birer kalibidir demistik .
         2) sonra objemize bir isim veririz.
           -
         3) "=" isareti koyuyoruz
         4) new keyword kullaniriz
-         - new keyword olmayan bir objeck'ti olustur demek.
+         - new keyword'u  bir objeck'ti olustur demek.
         6) class ismini parantezle beraber yazariz.
           Car() Constructor (mutahit) yani obje yapicidir constructor olmadan objecktler olusturulamaz.
          */

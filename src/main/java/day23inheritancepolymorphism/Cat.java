@@ -28,7 +28,7 @@ public class Cat extends Mammal {
     }
 
     /*
-     Bu method final oldugundan ovirride edilemez.
+     Bu method final oldugundan override edilemez.
     @Override
     public final double divide(int a, int b){
         return a/b;

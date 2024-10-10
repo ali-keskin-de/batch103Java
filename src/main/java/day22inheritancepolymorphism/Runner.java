@@ -16,7 +16,7 @@ public class Runner {
     public static void main(String[] args) {
 
         Cat cat1 = new Cat();
-        System.out.println(cat1.a); // 14
+        System.out.println(cat1.a); // 14 Burda perant class'larda da a variable var ancak java hagi degeri getirecegini Datatype bakarak karar verir bu sebepten  14 gelir cünkü Cat classinin icerisindeki a'nin degeri 14.
         System.out.println(cat1.b); //34
         System.out.println(cat1.c); //45
 
@@ -27,13 +27,14 @@ public class Runner {
         Animal cat3 = new Cat();;
         System.out.println(cat3.a);// 12
 
-       // Inheritance'ta
+       // Object olusturulurken Object'in data type'i Child Class'lardan secilemez yani Constructor Mammal iken Cat class'indan bir Object olusturulamaz
+        // Cat cat5 = new Mammal(); olmaz babayi cocuk üzerinden tanimlayamazsin diyor java.
         Cat cat4= new Cat();
         cat4.drink();// Mammal drink...
 
        // Object olustururken Object'in constructor Parent Class'tan ise data type'ni child Classlarda secemezsiniz.
 
-        // Inheritance'ta variable secilirken data type'i na bakar secer ancak Methodlarda Constructor' bakar.
+        // Inheritance'ta variable secilirken data type'ina bakar secer ancak Methodlarda Constructor' bakar.
         // Öncelikle Constructor'i kullanilan Class'tan method'u alir.
         // eger constructor ile ayni isimde olan class'ta method yoksa Parent classlara gider varsa ordan alir. Yoksa hata verir.
 

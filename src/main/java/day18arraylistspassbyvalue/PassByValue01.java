@@ -16,7 +16,7 @@ public class PassByValue01 {
     public static void main(String[] args) {
         int a = 5;
         // Static method olan "main method" un icerisinde hersey static olmalidir.
-        // Cünkü main method static static  methodlar icerisinde sadece static olanlar calisir
+        // Cünkü main method static, static  methodlar icerisinde sadece static olanlar calisir
         change(a);
         System.out.println(a);
 

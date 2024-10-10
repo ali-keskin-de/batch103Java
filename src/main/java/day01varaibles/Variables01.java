@@ -92,12 +92,6 @@ public class Variables01 {
            4) Primitive data type'leri Memory'de farkli büyüklükte yerler kullanirlar.
               Non-Primitive'ler hepsi memory'de ayni büyükte yer kullanirlar
 
-
-
-
-
-
-
      */
 
     public byte price = 12;

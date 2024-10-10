@@ -12,4 +12,6 @@ public class CatRunner {
     //      4) "super()" kodunu istediginizde görünür olarak yazdirabilirsiniz.
     //      5) "super()" kodunu görünür olarak yazarsaniz mutlaka ilk satirda olmalidir.
     //      6) "super()" kodu Parent Class'tan constructor cagirmaya yarar.
+
+    Cat cat1 = new Cat();
 }

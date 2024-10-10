@@ -15,4 +15,6 @@ public class Mammal extends Animal {
         System.out.println("Mammal");
     }
 
+
+
 }

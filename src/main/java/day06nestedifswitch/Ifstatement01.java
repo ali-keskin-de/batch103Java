@@ -33,7 +33,7 @@ public class Ifstatement01 {
         }else {
             System.out.println("Tanimlanmamis deger...");
         }
-        // sinir degerlere bakilarak yapilan teste " Sinirt deger Analizi" denir.
+        // sinir degerlere bakilarak yapilan teste " Sinir deger Analizi" denir.
         // Sinir Deger Analizi => Boundary Value Analyze Test
 
     }

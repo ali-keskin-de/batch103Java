@@ -68,12 +68,6 @@ public class Iterators01 {
         System.out.println(yourList);//[Tom!, Jim!, Clarla!, Angie!, Mark!]
 
         // hasPrevious() ve previous() nasil kullanilir.
-
-
-
-
-
-
     }
 
 }

@@ -30,7 +30,7 @@ public class Arrays03 {
         }
         System.out.println(counter);
 
-   // birden fazla durum icin ayni seyi yapacaksaniz yukardaki switch sytaksini kullanabiliriz.Böylelikle code tekrarindan kurtuluruz.
+   // birden fazla durum icin ayni seyi yapacaksaniz yukardaki switch syntaksini kullanabiliriz.Böylelikle code tekrarindan kurtuluruz.
 
     }
 }

@@ -16,7 +16,7 @@ public class AnimalRunner {
     4) Ancak bunun tersi mümkün degildir. Yani;  Parent class object'leri  child class'in method() ve veriable'larini kullanamaz.
 
     5) Object class bütün class'larin atasidir (Parent)
-    ancak bu java tarafindan bildiginden class'ta extends keyword'u ile bellirtilmesine gerek yoktur. Java bilineni belirtme geregi hic bir zaman duymaz.
+    ancak bu java tarafindan bilindiginden class'ta extends keyword'u ile bellirtilmesine gerek yoktur. Java bilineni belirtme geregi hic bir zaman duymaz.
    Java'da Object class disindaki her Classin Parent'i vardir. Diger bir deyisle Javada Parent'i olmayan tek Class Object class'tir
 
    6) “private” method’lar ve “variable” ‘lar direkt child classlardan kullanılamaz.

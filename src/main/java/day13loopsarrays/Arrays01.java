@@ -48,7 +48,7 @@ public class Arrays01 {
 
         System.out.println(ilk + son);//28
 
-        // Note : length() Bir metot Stringler de kullanılır. "length" Array'lerde kullanilir.
+        // Note : length() Bir method Stringler de kullanılır. "length" Array'lerde kullanilir.
 
         // Example 2: stdAges Array'i icin tüm elemanlarin toplamini ekrana yazdiran bir cosde yaziniz.
 

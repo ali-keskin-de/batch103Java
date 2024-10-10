@@ -11,6 +11,7 @@ public class MethodCreation {
 
         System.out.println(ilkIkiSayiToplayanUcuncuyuCarpan(7, 3, 2.5));
 
+
         /*
         sout yazip "Enter"'a basarsaniz i) System.out.println()  yazidirir ii) System.out.print()
         -ln ingililzcedeki line (satir) demektir println yazdigimizda yazdirdiktan sonra pointer (imleci) bir alt satira gecirir.
